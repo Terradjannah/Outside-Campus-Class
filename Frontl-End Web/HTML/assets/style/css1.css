@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@600&family=Quicksand:wght@600&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.box{
+    max-width: max-content;
+    max-height: max-content;
+    background-color: #E9D5CA;
+    overflow: auto;
+    text-align: center;
+    margin: 10px, 10px, 10px, 10px;
+}
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 54px;
+    color: #4D4C7D;
+}
+
+nav a:hover{
+    font-weight: 900;
+    color: saddlebrown;
+}
+nav a:link{
+    color: brown;
+}
+nav a:visited{
+    color: darkblue;
+}
+h2{
+    color: #4D4C7D;
+}
+.paragraf{
+    text-align: justify;
+    text-indent: 2em;
+}
+h3{
+    color: #827397;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    color: #E9D5CA;
+    background-color: #363062;
+}
+.profile header{
+    text-align: center;
+}

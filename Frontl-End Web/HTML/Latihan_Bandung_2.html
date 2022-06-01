@@ -3,6 +3,10 @@
     <head>
         <title>Div Element</title>
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+            body{
+                font-family: 'Oswald', sans-serif;
+            }
             .shadowbox {
                 width: 250px;
                 border: 1px solid #333;
@@ -13,6 +17,28 @@
             }
             .phone {
                 font-weight: bold;
+            }
+            a:link{
+                color: bisque;
+            }
+            a:visited{
+                color: purple;
+            }
+            a:hover{
+                color: chartreuse;
+            }
+            blockquote::before,
+            blockquote::after {
+                content: '"';
+                font-size: 24px;
+                font-style: italic;
+                font-weight: bold;
+            }
+            .contoh::first-letter{
+                font-size: 32px;
+                font-weight: bold;
+                color: rgb(98, 1, 253);
+                font-family: 'Times New Roman', Times, serif;
             }
         </style>
      </head>
@@ -52,7 +78,7 @@
             <img src="https://github.com/dicodingacademy/BelajarDasarPemrogramanWeb/raw/image-assets/dicoding-logo.png" alt="Sicoding Logo" width="200px">
             <figcaption>Dicoding</figcaption>
         </figure>
-        <p>Materi perdana yang menjadi magnet dari awal berdirinya Dicoding hingga kini adalah kelas Menjadi Android Developer
+        <p class="contoh">Materi perdana yang menjadi magnet dari awal berdirinya Dicoding hingga kini adalah kelas Menjadi Android Developer
             Expert. Kelas ini dikembangkan oleh Google Developer Expert in Android, Sidiq Permana dan Head of Dicoding Academy,
             Ahmad Imaduddin. Seperti halnya kelas Picodiploma lain, modul online-nya juga hadir dalam bentuk buku berjudul sama
             yang telah mendapatkan ijin dan ISBN.</p>
@@ -62,5 +88,33 @@
             <li>Widy: <span class="phone">08222xxx</span></li>
             <li>Gilang: <span class="phone">08333xxx</span></li>
         </ul>
+        <h1>Pemenang Piala Dunia tiga tahun terakhir</h1>
+ 
+<table>
+   <tr>
+       <th>Tahun</th>
+       <th>Juara 1</th>
+       <th>Juara 2</th>
+       <th>Juara 3</th>
+   </tr>
+   <tr>
+       <td>2018</td>
+       <td>Prancis</td>
+       <td>Kroasia</td>
+       <td>Belgium</td>
+   </tr>
+   <tr>
+       <td>2014</td>
+       <td>Jerman</td>
+       <td>Argentina</td>
+       <td>Belanda</td>
+   </tr>
+   <tr>
+       <td>2010</td>
+       <td>Spanyol</td>
+       <td>Belanda</td>
+       <td>Jerman</td>
+   </tr>
+</table>
     </body>    
 </html>
