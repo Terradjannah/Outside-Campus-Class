@@ -4,21 +4,28 @@
 body{
     font-family: 'Quicksand', sans-serif;
 }
-.box{
-    max-width: max-content;
-    max-height: max-content;
-    background-color: #E9D5CA;
-    overflow: auto;
-    text-align: center;
-    margin: 10px, 10px, 10px, 10px;
+li{
+    display: inline;
+    margin-left: 5px;
 }
-h1{
-    font-family: 'Bebas Neue', sans-serif;
-    text-align: center;
-    font-size: 54px;
-    color: #4D4C7D;
+.jumbotron{
+   font-size: 20px;
+   font-family: 'Bebas Neue', sans-serif;
+   padding: 60px;
+   background-color: #00c8eb;
+   text-align: center;
+   color: #4D4C7D;
 }
-
+nav{
+    background-color: #00a2c6;
+    padding: 5px;
+}
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+ }
 nav a:hover{
     font-weight: 900;
     color: saddlebrown;
@@ -39,6 +46,62 @@ h2{
 h3{
     color: #827397;
 }
+.gambar{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+#Sejarah{
+    max-width: 1080px;
+    max-height: 720px;
+    width: 75%;
+    height: 125%;
+    background-color: #E9D5CA;
+    overflow: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px, 10px, 10px, 10px;
+    border-width: 1px, 1px, 1px, 1px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#Geografis{
+    max-width: 1080px;
+    max-height: 720px;
+    width: 75%;
+    height: 125%;
+    background-color: #E9D5CA;
+    overflow: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px, 10px, 10px, 10px;
+    border-width: 1px, 1px, 1px, 1px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#Wisata{
+    max-width: 1080px;
+    max-height: 720px;
+    width: 75%;
+    height: 125%;
+    background-color: #E9D5CA;
+    overflow: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px, 10px, 10px, 10px;
+    border-width: 1px, 1px, 1px, 1px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.box{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
 footer{
     text-align: center;
     padding: 20px;
@@ -47,4 +110,7 @@ footer{
 }
 .profile header{
     text-align: center;
+}
+.profile img{
+    width: 200px;
 }
