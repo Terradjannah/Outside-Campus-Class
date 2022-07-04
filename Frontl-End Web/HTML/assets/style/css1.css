@@ -3,11 +3,10 @@
 
 body{
     font-family: 'Quicksand', sans-serif;
+    padding: 5px, 5px, 5px, 5px;
+    margin: auto;
 }
-li{
-    display: inline;
-    margin-left: 5px;
-}
+
 .jumbotron{
    font-size: 20px;
    font-family: 'Bebas Neue', sans-serif;
@@ -15,10 +14,17 @@ li{
    background-color: #00c8eb;
    text-align: center;
    color: #4D4C7D;
+   clear: bothq;
+   width: 100%;
+}
+li{
+    display: inline;
+    margin-left: 5px;
 }
 nav{
     background-color: #00a2c6;
     padding: 5px;
+    width: 100%;
 }
 nav a {
     font-size: 18px;
@@ -52,7 +58,7 @@ h3{
     object-fit: cover;
     object-position: center;
 }
-#Sejarah{
+#Sejarah{  
     max-width: 1080px;
     max-height: 720px;
     width: 75%;
@@ -60,11 +66,13 @@ h3{
     background-color: #E9D5CA;
     overflow: auto;
     text-align: center;
-    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 20px;
     padding: 10px, 10px, 10px, 10px;
     border-width: 1px, 1px, 1px, 1px;
     border-style: solid;
     border-radius: 10px;
+
 }
 
 #Geografis{
@@ -75,11 +83,13 @@ h3{
     background-color: #E9D5CA;
     overflow: auto;
     text-align: center;
-    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 20px;
     padding: 10px, 10px, 10px, 10px;
     border-width: 1px, 1px, 1px, 1px;
     border-style: solid;
     border-radius: 10px;
+    
 }
 
 #Wisata{
@@ -90,7 +100,8 @@ h3{
     background-color: #E9D5CA;
     overflow: auto;
     text-align: center;
-    margin: 0 auto;
+    margin-top: 20px, auto;
+    margin-left: 20px;
     padding: 10px, 10px, 10px, 10px;
     border-width: 1px, 1px, 1px, 1px;
     border-style: solid;
@@ -107,6 +118,22 @@ footer{
     padding: 20px;
     color: #E9D5CA;
     background-color: #363062;
+}
+.profile{
+    max-width: 1080px;
+    max-height: 720px;
+    width: 20%;
+    height: 30%;
+    background-color: #E9D5CA;
+    overflow: auto;
+    text-align: center;
+    margin-top: 20px, auto;
+    margin-left: 20px;
+    padding: 10px, 10px, 10px, 10px;
+    border-width: 1px, 1px, 1px, 1px;
+    border-style: solid;
+    border-radius: 10px; 
+    float: right; 
 }
 .profile header{
     text-align: center;
