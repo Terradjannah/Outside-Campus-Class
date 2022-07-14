@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+
+body{
+    padding: 5px, 5px, 5px, 5px;
+    margin: auto;
+}
+header{
+    display: inline;
+}
+.jumbotron{
+    font-size: 20px;
+    padding: 60px;
+    background-color: #7BDFF2;
+    text-align: center;
+    color: #3C3744;
+    margin: 0px;
+}
+#jum1{
+    font-family: 'Bree Serif', serif;
+    text-transform: uppercase;
+}
+#jum2{
+    font-family: 'Edu SA Beginner', cursive;
+}
+nav{
+    background-color: #B2F7EF;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+#content{
+    float: left;
+    width: 75%;
+}
+li{
+    display: inline;
+    margin-left: 5px;
+}
+.boxContent{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    padding: 20px;
+    margin-top: 15px;
+    width: 85%;
+    height: 125%;
+    text-align: center;
+    background-color: white;
+    object-position: center;
+    margin-left: 10px;
+}
+.paragraf{
+    text-align: justify;
+}
+.gambar{
+    width: 75%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    position: normal;
+}
+.profile{
+    overflow: auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    float: right;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+aside{
+    float: right;
+    width: 25%;
+}
+main{
+    overflow: auto;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #7BDFF2;
+    margin-top: 20px;
+}
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+      width: 100%;
+      padding: 0;
+    }
+  }
